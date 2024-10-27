@@ -1,0 +1,13 @@
+mtllib scene.mtl
+
+usemtl ambient
+S -0.35 0.0 -0.5 0.15
+
+usemtl diffuse
+S 0 0 -0.5 0.15
+
+usemtl specular
+S 0.4 0 -0.5 0.15
+
+#P -0.5 0 0 0.5 0.5 0.5
+P -0.2 0 0 0.5 0.5 0.5

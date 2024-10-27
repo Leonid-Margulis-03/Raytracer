@@ -1,0 +1,39 @@
+mtllib materials.mtl
+
+v 0 0 0
+v 0 0 -3
+v 3 0 -3
+v 3 0 0
+v 0 3 0
+v 0 3 -3
+v 3 3 -3
+v 3 3 0
+
+# backwall
+usemtl back
+f 1 5 8 4
+
+# leftwall
+usemtl left
+f 1 5 6 2
+
+# rightwall
+usemtl right
+f 4 3 7 8
+
+# frontwall
+usemtl front
+f 2 3 7 6
+
+# floor
+usemtl floor
+f 1 2 3 4
+
+# ceiling
+usemtl ceil
+f 5 8 7 6
+
+usemtl sphere
+S 1 0.5 -2 0.5
+
+P 2.8 2.8 -2.8 1 1 1
